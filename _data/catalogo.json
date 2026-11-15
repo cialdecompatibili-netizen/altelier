@@ -40,6 +40,96 @@
           "nome": "Accessories"
         }
       }
+    },
+    {
+      "nome": "Abbigliamento donna",
+      "id": "abbigliamento-donna",
+      "icona": "👗",
+      "tr": {
+        "en": {
+          "nome": "Women's clothing"
+        }
+      }
+    },
+    {
+      "nome": "Sposa e cerimonia",
+      "id": "sposa-cerimonia",
+      "icona": "👰",
+      "tr": {
+        "en": {
+          "nome": "Bridal and ceremony"
+        }
+      }
+    },
+    {
+      "nome": "Borse e pelletteria",
+      "id": "borse-pelletteria",
+      "icona": "👜",
+      "tr": {
+        "en": {
+          "nome": "Bags and leather goods"
+        }
+      }
+    },
+    {
+      "nome": "Sciarpe e foulard",
+      "id": "sciarpe-foulard",
+      "icona": "🧣",
+      "tr": {
+        "en": {
+          "nome": "Scarves and shawls"
+        }
+      }
+    },
+    {
+      "nome": "Bigiotteria artigianale",
+      "id": "bigiotteria",
+      "icona": "📿",
+      "tr": {
+        "en": {
+          "nome": "Handmade costume jewellery"
+        }
+      }
+    },
+    {
+      "nome": "Ceramiche artigianali",
+      "id": "ceramiche",
+      "icona": "🏺",
+      "tr": {
+        "en": {
+          "nome": "Handmade ceramics"
+        }
+      }
+    },
+    {
+      "nome": "Arte e quadri",
+      "id": "arte-quadri",
+      "icona": "🖼",
+      "tr": {
+        "en": {
+          "nome": "Art and paintings"
+        }
+      }
+    },
+    {
+      "nome": "Tessuti per la casa",
+      "id": "tessuti-casa",
+      "icona": "🪟",
+      "tr": {
+        "en": {
+          "nome": "Home textiles"
+        }
+      }
+    },
+    {
+      "nome": "Modifiche e riparazioni",
+      "id": "modifiche-riparazioni",
+      "icona": "✂️",
+      "tr": {
+        "en": {
+          "nome": "Alterations and repairs"
+        }
+      }
     }
   ],
   "prodotti": [
@@ -268,6 +358,348 @@
           "nome": "Leather belt",
           "descrizione": "Full-grain leather, understated buckle.",
           "descrizione_completa": "Full-grain leather, understated buckle.\n\nFeatures\nLeather, metal buckle.\nDEMO product: sample price and text."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "abito-sera-crepe",
+      "nome": "Abito da sera in crepe",
+      "categoria": "abbigliamento-donna",
+      "prezzo_centesimi": 54000,
+      "descrizione": "Linea fluida, cucito sulle tue misure.",
+      "descrizione_completa": "Linea fluida, cucito sulle tue misure.\n\nCaratteristiche\nCrepe, chiusura nascosta.\nProdotto DEMO: prezzo e testo di prova.",
+      "immagine": "",
+      "icona": "👗",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Crepe evening dress",
+          "descrizione": "Fluid line, sewn to your measurements.",
+          "descrizione_completa": "Fluid line, sewn to your measurements.\n\nFeatures\nCrepe, hidden zip.\nDEMO product: sample price and text."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "tailleur-lana",
+      "nome": "Tailleur in lana",
+      "categoria": "abbigliamento-donna",
+      "prezzo_centesimi": 69000,
+      "descrizione": "Giacca e gonna o pantalone, a tua scelta.",
+      "descrizione_completa": "Giacca e gonna o pantalone, a tua scelta.\n\nCaratteristiche\nLana, fodera in viscosa.\nProdotto DEMO: prezzo e testo di prova.",
+      "immagine": "",
+      "icona": "👗",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Wool suit",
+          "descrizione": "Jacket with skirt or trousers, your choice.",
+          "descrizione_completa": "Jacket with skirt or trousers, your choice.\n\nFeatures\nWool, viscose lining.\nDEMO product: sample price and text."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "abito-sposa-pizzo",
+      "nome": "Abito da sposa in pizzo",
+      "categoria": "sposa-cerimonia",
+      "prezzo_centesimi": 180000,
+      "descrizione": "Disegnato con te, prova dopo prova.",
+      "descrizione_completa": "Disegnato con te, prova dopo prova.\n\nCaratteristiche\nPizzo e tulle, strascico a scelta.\nProdotto DEMO: prezzo e testo di prova.",
+      "immagine": "",
+      "icona": "👰",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Lace wedding dress",
+          "descrizione": "Designed with you, fitting after fitting.",
+          "descrizione_completa": "Designed with you, fitting after fitting.\n\nFeatures\nLace and tulle, train of your choice.\nDEMO product: sample price and text."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "abito-cerimonia-raso",
+      "nome": "Abito da cerimonia in raso",
+      "categoria": "sposa-cerimonia",
+      "prezzo_centesimi": 72000,
+      "descrizione": "Elegante e comodo per tutta la giornata.",
+      "descrizione_completa": "Elegante e comodo per tutta la giornata.\n\nCaratteristiche\nRaso, lunghezza a scelta.\nProdotto DEMO: prezzo e testo di prova.",
+      "immagine": "",
+      "icona": "👰",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Satin ceremony dress",
+          "descrizione": "Elegant and comfortable all day.",
+          "descrizione_completa": "Elegant and comfortable all day.\n\nFeatures\nSatin, length of your choice.\nDEMO product: sample price and text."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "borsa-spalla-cuoio",
+      "nome": "Borsa a spalla in cuoio",
+      "categoria": "borse-pelletteria",
+      "prezzo_centesimi": 28000,
+      "descrizione": "Capiente, con tracolla regolabile.",
+      "descrizione_completa": "Capiente, con tracolla regolabile.\n\nCaratteristiche\nCuoio, interno in cotone.\nProdotto DEMO: prezzo e testo di prova.",
+      "immagine": "",
+      "icona": "👜",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Leather shoulder bag",
+          "descrizione": "Roomy, with an adjustable strap.",
+          "descrizione_completa": "Roomy, with an adjustable strap.\n\nFeatures\nLeather, cotton interior.\nDEMO product: sample price and text."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "portafoglio-cuoio",
+      "nome": "Portafoglio in cuoio",
+      "categoria": "borse-pelletteria",
+      "prezzo_centesimi": 9000,
+      "descrizione": "Sottile, con scomparti per le carte.",
+      "descrizione_completa": "Sottile, con scomparti per le carte.\n\nCaratteristiche\nCuoio, cuciture a mano.\nProdotto DEMO: prezzo e testo di prova.",
+      "immagine": "",
+      "icona": "👜",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Leather wallet",
+          "descrizione": "Slim, with card slots.",
+          "descrizione_completa": "Slim, with card slots.\n\nFeatures\nLeather, hand-stitched seams.\nDEMO product: sample price and text."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "foulard-seta",
+      "nome": "Foulard in seta",
+      "categoria": "sciarpe-foulard",
+      "prezzo_centesimi": 7500,
+      "descrizione": "Leggero, con stampa a disegno.",
+      "descrizione_completa": "Leggero, con stampa a disegno.\n\nCaratteristiche\nSeta, bordo rullato.\nProdotto DEMO: prezzo e testo di prova.",
+      "immagine": "",
+      "icona": "🧣",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Silk scarf",
+          "descrizione": "Light, with a printed pattern.",
+          "descrizione_completa": "Light, with a printed pattern.\n\nFeatures\nSilk, rolled edge.\nDEMO product: sample price and text."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "sciarpa-merino",
+      "nome": "Sciarpa in lana merino",
+      "categoria": "sciarpe-foulard",
+      "prezzo_centesimi": 6000,
+      "descrizione": "Morbida e calda per l'inverno.",
+      "descrizione_completa": "Morbida e calda per l'inverno.\n\nCaratteristiche\nLana merino, frange corte.\nProdotto DEMO: prezzo e testo di prova.",
+      "immagine": "",
+      "icona": "🧣",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Merino wool scarf",
+          "descrizione": "Soft and warm for winter.",
+          "descrizione_completa": "Soft and warm for winter.\n\nFeatures\nMerino wool, short fringe.\nDEMO product: sample price and text."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "collana-legno-cotone",
+      "nome": "Collana in legno e cotone cerato",
+      "categoria": "bigiotteria",
+      "prezzo_centesimi": 4500,
+      "descrizione": "Leggera, con sfere di legno tornite.",
+      "descrizione_completa": "Leggera, con sfere di legno tornite.\n\nCaratteristiche\nLegno e cotone cerato.\nProdotto DEMO: prezzo e testo di prova.",
+      "immagine": "",
+      "icona": "📿",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Wood and waxed-cotton necklace",
+          "descrizione": "Light, with turned wooden beads.",
+          "descrizione_completa": "Light, with turned wooden beads.\n\nFeatures\nWood and waxed cotton.\nDEMO product: sample price and text."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "orecchini-resina",
+      "nome": "Orecchini in resina",
+      "categoria": "bigiotteria",
+      "prezzo_centesimi": 3800,
+      "descrizione": "Colorati, fatti uno per uno.",
+      "descrizione_completa": "Colorati, fatti uno per uno.\n\nCaratteristiche\nResina e acciaio inox.\nProdotto DEMO: prezzo e testo di prova.",
+      "immagine": "",
+      "icona": "📿",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Resin earrings",
+          "descrizione": "Colourful, made one by one.",
+          "descrizione_completa": "Colourful, made one by one.\n\nFeatures\nResin and stainless steel.\nDEMO product: sample price and text."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "tazza-gres",
+      "nome": "Tazza in gres",
+      "categoria": "ceramiche",
+      "prezzo_centesimi": 2800,
+      "descrizione": "Tornita a mano, ogni pezzo è diverso.",
+      "descrizione_completa": "Tornita a mano, ogni pezzo è diverso.\n\nCaratteristiche\nGres smaltato, adatta alla lavastoviglie.\nProdotto DEMO: prezzo e testo di prova.",
+      "immagine": "",
+      "icona": "🏺",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Stoneware mug",
+          "descrizione": "Hand-thrown, every piece is different.",
+          "descrizione_completa": "Hand-thrown, every piece is different.\n\nFeatures\nGlazed stoneware, dishwasher safe.\nDEMO product: sample price and text."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "vaso-terracotta",
+      "nome": "Vaso in terracotta",
+      "categoria": "ceramiche",
+      "prezzo_centesimi": 6500,
+      "descrizione": "Forma morbida, per fiori o rami secchi.",
+      "descrizione_completa": "Forma morbida, per fiori o rami secchi.\n\nCaratteristiche\nTerracotta, interno impermeabilizzato.\nProdotto DEMO: prezzo e testo di prova.",
+      "immagine": "",
+      "icona": "🏺",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Terracotta vase",
+          "descrizione": "Soft shape, for flowers or dried branches.",
+          "descrizione_completa": "Soft shape, for flowers or dried branches.\n\nFeatures\nTerracotta, waterproofed interior.\nDEMO product: sample price and text."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "dipinto-olio-tela",
+      "nome": "Dipinto a olio su tela",
+      "categoria": "arte-quadri",
+      "prezzo_centesimi": 42000,
+      "descrizione": "Opera originale, pezzo unico.",
+      "descrizione_completa": "Opera originale, pezzo unico.\n\nCaratteristiche\nOlio su tela, firmato sul retro.\nProdotto DEMO: prezzo e testo di prova.",
+      "immagine": "",
+      "icona": "🖼",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Oil painting on canvas",
+          "descrizione": "Original work, one of a kind.",
+          "descrizione_completa": "Original work, one of a kind.\n\nFeatures\nOil on canvas, signed on the back.\nDEMO product: sample price and text."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "stampa-arte-numerata",
+      "nome": "Stampa d'arte numerata",
+      "categoria": "arte-quadri",
+      "prezzo_centesimi": 8000,
+      "descrizione": "Tiratura limitata, firmata e numerata.",
+      "descrizione_completa": "Tiratura limitata, firmata e numerata.\n\nCaratteristiche\nStampa su carta cotone.\nProdotto DEMO: prezzo e testo di prova.",
+      "immagine": "",
+      "icona": "🖼",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Numbered art print",
+          "descrizione": "Limited run, signed and numbered.",
+          "descrizione_completa": "Limited run, signed and numbered.\n\nFeatures\nPrint on cotton paper.\nDEMO product: sample price and text."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "tende-lino-misura",
+      "nome": "Tende su misura in lino",
+      "categoria": "tessuti-casa",
+      "prezzo_centesimi": 26000,
+      "descrizione": "Cucite sulle misure della tua finestra.",
+      "descrizione_completa": "Cucite sulle misure della tua finestra.\n\nCaratteristiche\nLino, orlo e ganci a scelta.\nProdotto DEMO: prezzo e testo di prova.",
+      "immagine": "",
+      "icona": "🪟",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Made-to-measure linen curtains",
+          "descrizione": "Sewn to the size of your window.",
+          "descrizione_completa": "Sewn to the size of your window.\n\nFeatures\nLinen, hem and hooks of your choice.\nDEMO product: sample price and text."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "cuscino-ricamato",
+      "nome": "Cuscino ricamato a mano",
+      "categoria": "tessuti-casa",
+      "prezzo_centesimi": 5500,
+      "descrizione": "Ricamo a mano su tela di cotone.",
+      "descrizione_completa": "Ricamo a mano su tela di cotone.\n\nCaratteristiche\nCotone, imbottitura sfoderabile.\nProdotto DEMO: prezzo e testo di prova.",
+      "immagine": "",
+      "icona": "🪟",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Hand-embroidered cushion",
+          "descrizione": "Hand embroidery on cotton canvas.",
+          "descrizione_completa": "Hand embroidery on cotton canvas.\n\nFeatures\nCotton, removable filling.\nDEMO product: sample price and text."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "orlo-pantaloni",
+      "nome": "Orlo e accorciatura pantaloni",
+      "categoria": "modifiche-riparazioni",
+      "prezzo_centesimi": 1800,
+      "descrizione": "Lunghezza giusta, orlo invisibile.",
+      "descrizione_completa": "Lunghezza giusta, orlo invisibile.\n\nCaratteristiche\nServizio in atelier, su appuntamento.\nProdotto DEMO: prezzo e testo di prova.",
+      "immagine": "",
+      "icona": "✂️",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Trouser hemming",
+          "descrizione": "The right length, invisible hem.",
+          "descrizione_completa": "The right length, invisible hem.\n\nFeatures\nIn-atelier service, by appointment.\nDEMO product: sample price and text."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "modifica-giacca",
+      "nome": "Modifica giacca",
+      "categoria": "modifiche-riparazioni",
+      "prezzo_centesimi": 6000,
+      "descrizione": "Spalle, maniche o vita sistemate sulle tue misure.",
+      "descrizione_completa": "Spalle, maniche o vita sistemate sulle tue misure.\n\nCaratteristiche\nServizio in atelier, su appuntamento.\nProdotto DEMO: prezzo e testo di prova.",
+      "immagine": "",
+      "icona": "✂️",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Jacket alteration",
+          "descrizione": "Shoulders, sleeves or waist adjusted to you.",
+          "descrizione_completa": "Shoulders, sleeves or waist adjusted to you.\n\nFeatures\nIn-atelier service, by appointment.\nDEMO product: sample price and text."
         }
       }
     }
