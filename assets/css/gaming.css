@@ -56,7 +56,7 @@
 .gc-buy{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;padding:.9rem 1.1rem;border:1px solid var(--gc-line);border-radius:12px;margin:.6rem 0;background:#fff}
 .gc-buy a{font-weight:600}
 /* --- Home "corporate" (hero CHIARO, ciclo in 4 passi, fascia dati, colonne a 4). Colori: --gc-acc/--gc-acc-s/--gc-soft. Niente sfondi scuri: se ne serve uno, usare .gc-dark (che e' chiaro) --- */
-.ent-hero{position:relative;background:#eaf3fb url(../images/artico-hero.jpg) center 60%/cover no-repeat;color:var(--gc-ink);padding:clamp(1.5rem,4vh,3.5rem) 0;min-height:calc(100vh - 80px);min-height:calc(100svh - 80px);display:flex;align-items:center}
+.ent-hero{position:relative;background:#eaf3fb url(../images/hero.jpg) center 60%/cover no-repeat;color:var(--gc-ink);padding:clamp(1.5rem,4vh,3.5rem) 0;min-height:calc(100vh - 80px);min-height:calc(100svh - 80px);display:flex;align-items:center}
 .ent-hero .gc-h1{color:var(--gc-ink);font-size:clamp(2rem,3.2vw + 1.2vh,3.6rem)}.ent-hero .gc-h1 em{color:var(--gc-acc)}.ent-hero .gc-lead{color:var(--gc-mut)}.ent-hero .gc-eyebrow{color:var(--gc-acc)}
 /* HERO ARTICO. Foto: NASA, Larsen Ice Shelf, pubblico dominio (assets/images/artico-hero.jpg). Per cambiare sfondo basta sostituire quel file.
    ::before = velo chiaro a sinistra (testo leggibile) che svanisce a destra (foto in vista). Contenuto sopra con z-index:1. */

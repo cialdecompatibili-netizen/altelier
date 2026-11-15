@@ -2,33 +2,272 @@
   "_nota": "Catalogo dello shop (serve solo con ecommerce: true in _config.yml). Prezzi in CENTESIMI. Ogni prodotto/categoria ha anche una pagina in _negozio/ (layout negozio-prodotto con pid=<id>, negozio-categoria con cid=<id>). L'id categoria e' riservato. tipo: digitale (niente spedizione) o fisico. visibile:false nasconde senza cancellare. TRADUZIONI: ogni categoria/prodotto puo' avere \"tr\": {\"en\": {\"nome\": \"...\", \"descrizione\": \"...\", \"descrizione_completa\": \"...\"}}; campo mancante = si usa l'italiano.",
   "categorie": [
     {
-      "nome": "Esempio",
-      "id": "esempio",
-      "icona": "🛍️",
+      "nome": "Abiti su misura",
+      "id": "abiti-su-misura",
+      "icona": "👔",
       "tr": {
         "en": {
-          "nome": "Example"
+          "nome": "Made-to-measure suits"
+        }
+      }
+    },
+    {
+      "nome": "Camicie su misura",
+      "id": "camicie",
+      "icona": "🧵",
+      "tr": {
+        "en": {
+          "nome": "Bespoke shirts"
+        }
+      }
+    },
+    {
+      "nome": "Giacche e cappotti",
+      "id": "giacche-cappotti",
+      "icona": "🧥",
+      "tr": {
+        "en": {
+          "nome": "Jackets and coats"
+        }
+      }
+    },
+    {
+      "nome": "Accessori",
+      "id": "accessori",
+      "icona": "🎀",
+      "tr": {
+        "en": {
+          "nome": "Accessories"
         }
       }
     }
   ],
   "prodotti": [
     {
-      "tipo": "digitale",
-      "id": "prodotto-esempio",
-      "nome": "Prodotto di esempio",
-      "categoria": "esempio",
-      "prezzo_centesimi": 1000,
-      "descrizione": "Descrizione breve del prodotto di esempio.",
-      "descrizione_completa": "Descrizione completa del prodotto.\nOgni riga diventa un paragrafo.",
+      "tipo": "fisico",
+      "id": "abito-due-pezzi-lana-fresca",
+      "nome": "Abito due pezzi in lana fresca",
+      "categoria": "abiti-su-misura",
+      "prezzo_centesimi": 89000,
+      "descrizione": "Taglio sartoriale, leggero e fresco per le stagioni calde.",
+      "descrizione_completa": "Taglio sartoriale, leggero e fresco per le stagioni calde.\n\nCaratteristiche\nTessuto in lana fresca, adatto a ogni giornata.\nProdotto DEMO: prezzo e testo di prova.",
       "immagine": "",
-      "icona": "🛍️",
+      "icona": "👔",
       "visibile": true,
       "tr": {
         "en": {
-          "nome": "Example product",
-          "descrizione": "Short description of the example product.",
-          "descrizione_completa": "Full description of the product.\nEach line becomes a paragraph."
+          "nome": "Two-piece suit in tropical wool",
+          "descrizione": "Light, fresh tailored cut for the warm seasons.",
+          "descrizione_completa": "Light, fresh tailored cut for the warm seasons.\n\nFeatures\nFabric in tropical wool, suited to any day.\nDEMO product: sample price and text."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "abito-flanella-grigia",
+      "nome": "Abito in flanella grigia",
+      "categoria": "abiti-su-misura",
+      "prezzo_centesimi": 96000,
+      "descrizione": "Un classico morbido e caldo per l'autunno e l'inverno.",
+      "descrizione_completa": "Un classico morbido e caldo per l'autunno e l'inverno.\n\nCaratteristiche\nTessuto in flanella grigia, linea pulita.\nProdotto DEMO: prezzo e testo di prova.",
+      "immagine": "",
+      "icona": "👔",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Grey flannel suit",
+          "descrizione": "A soft, warm classic for autumn and winter.",
+          "descrizione_completa": "A soft, warm classic for autumn and winter.\n\nFeatures\nGrey flannel fabric, clean lines.\nDEMO product: sample price and text."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "smoking-classico",
+      "nome": "Smoking classico",
+      "categoria": "abiti-su-misura",
+      "prezzo_centesimi": 125000,
+      "descrizione": "Per le serate importanti, con revers in raso.",
+      "descrizione_completa": "Per le serate importanti, con revers in raso.\n\nCaratteristiche\nGiacca e pantalone con revers in raso.\nProdotto DEMO: prezzo e testo di prova.",
+      "immagine": "",
+      "icona": "👔",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Classic tuxedo",
+          "descrizione": "For important evenings, with satin lapels.",
+          "descrizione_completa": "For important evenings, with satin lapels.\n\nFeatures\nJacket and trousers with satin lapels.\nDEMO product: sample price and text."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "camicia-popeline-bianca",
+      "nome": "Camicia in popeline bianco",
+      "categoria": "camicie",
+      "prezzo_centesimi": 14000,
+      "descrizione": "La camicia di base, rifinita con cura.",
+      "descrizione_completa": "La camicia di base, rifinita con cura.\n\nCaratteristiche\nPopeline di cotone, colletto a scelta.\nProdotto DEMO: prezzo e testo di prova.",
+      "immagine": "",
+      "icona": "🧵",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "White poplin shirt",
+          "descrizione": "The essential shirt, carefully finished.",
+          "descrizione_completa": "The essential shirt, carefully finished.\n\nFeatures\nCotton poplin, collar of your choice.\nDEMO product: sample price and text."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "camicia-lino-azzurro",
+      "nome": "Camicia in lino azzurro",
+      "categoria": "camicie",
+      "prezzo_centesimi": 15000,
+      "descrizione": "Fresca e leggera, perfetta per l'estate.",
+      "descrizione_completa": "Fresca e leggera, perfetta per l'estate.\n\nCaratteristiche\nLino azzurro, vestibilità morbida.\nProdotto DEMO: prezzo e testo di prova.",
+      "immagine": "",
+      "icona": "🧵",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Light blue linen shirt",
+          "descrizione": "Cool and light, perfect for summer.",
+          "descrizione_completa": "Cool and light, perfect for summer.\n\nFeatures\nLight blue linen, relaxed fit.\nDEMO product: sample price and text."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "camicia-twill-righe",
+      "nome": "Camicia in twill a righe",
+      "categoria": "camicie",
+      "prezzo_centesimi": 16000,
+      "descrizione": "Una riga sottile per dare carattere al completo.",
+      "descrizione_completa": "Una riga sottile per dare carattere al completo.\n\nCaratteristiche\nTwill di cotone a righe.\nProdotto DEMO: prezzo e testo di prova.",
+      "immagine": "",
+      "icona": "🧵",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Striped twill shirt",
+          "descrizione": "A fine stripe to give a suit some character.",
+          "descrizione_completa": "A fine stripe to give a suit some character.\n\nFeatures\nStriped cotton twill.\nDEMO product: sample price and text."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "giacca-tweed",
+      "nome": "Giacca in tweed",
+      "categoria": "giacche-cappotti",
+      "prezzo_centesimi": 62000,
+      "descrizione": "Per le giornate fredde, con una trama che si nota.",
+      "descrizione_completa": "Per le giornate fredde, con una trama che si nota.\n\nCaratteristiche\nTweed di lana, fodera interna.\nProdotto DEMO: prezzo e testo di prova.",
+      "immagine": "",
+      "icona": "🧥",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Tweed jacket",
+          "descrizione": "For cold days, with a texture that stands out.",
+          "descrizione_completa": "For cold days, with a texture that stands out.\n\nFeatures\nWool tweed, inner lining.\nDEMO product: sample price and text."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "blazer-cashmere-blu",
+      "nome": "Blazer in cashmere blu",
+      "categoria": "giacche-cappotti",
+      "prezzo_centesimi": 78000,
+      "descrizione": "Morbido, sfoderato a metà, facile da abbinare.",
+      "descrizione_completa": "Morbido, sfoderato a metà, facile da abbinare.\n\nCaratteristiche\nCashmere blu, linea sciolta.\nProdotto DEMO: prezzo e testo di prova.",
+      "immagine": "",
+      "icona": "🧥",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Blue cashmere blazer",
+          "descrizione": "Soft, half-lined, easy to match.",
+          "descrizione_completa": "Soft, half-lined, easy to match.\n\nFeatures\nBlue cashmere, relaxed line.\nDEMO product: sample price and text."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "cappotto-lana-cashmere",
+      "nome": "Cappotto in lana e cashmere",
+      "categoria": "giacche-cappotti",
+      "prezzo_centesimi": 110000,
+      "descrizione": "Il capospalla da tenere per anni.",
+      "descrizione_completa": "Il capospalla da tenere per anni.\n\nCaratteristiche\nLana e cashmere, taglio dritto.\nProdotto DEMO: prezzo e testo di prova.",
+      "immagine": "",
+      "icona": "🧥",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Wool and cashmere overcoat",
+          "descrizione": "The outerwear piece to keep for years.",
+          "descrizione_completa": "The outerwear piece to keep for years.\n\nFeatures\nWool and cashmere, straight cut.\nDEMO product: sample price and text."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "cravatta-seta",
+      "nome": "Cravatta in seta",
+      "categoria": "accessori",
+      "prezzo_centesimi": 8500,
+      "descrizione": "Una cravatta che chiude bene il completo.",
+      "descrizione_completa": "Una cravatta che chiude bene il completo.\n\nCaratteristiche\nSeta, tinta unita.\nProdotto DEMO: prezzo e testo di prova.",
+      "immagine": "",
+      "icona": "🎀",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Silk tie",
+          "descrizione": "A tie that finishes the outfit well.",
+          "descrizione_completa": "A tie that finishes the outfit well.\n\nFeatures\nSilk, solid colour.\nDEMO product: sample price and text."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "pochette-lino",
+      "nome": "Pochette in lino",
+      "categoria": "accessori",
+      "prezzo_centesimi": 3500,
+      "descrizione": "Un tocco leggero sul taschino.",
+      "descrizione_completa": "Un tocco leggero sul taschino.\n\nCaratteristiche\nLino, bordo rifinito a mano.\nProdotto DEMO: prezzo e testo di prova.",
+      "immagine": "",
+      "icona": "🎀",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Linen pocket square",
+          "descrizione": "A light touch for the breast pocket.",
+          "descrizione_completa": "A light touch for the breast pocket.\n\nFeatures\nLinen, hand-finished edge.\nDEMO product: sample price and text."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "cintura-cuoio",
+      "nome": "Cintura in cuoio",
+      "categoria": "accessori",
+      "prezzo_centesimi": 9500,
+      "descrizione": "Cuoio pieno, fibbia sobria.",
+      "descrizione_completa": "Cuoio pieno, fibbia sobria.\n\nCaratteristiche\nCuoio, fibbia in metallo.\nProdotto DEMO: prezzo e testo di prova.",
+      "immagine": "",
+      "icona": "🎀",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Leather belt",
+          "descrizione": "Full-grain leather, understated buckle.",
+          "descrizione_completa": "Full-grain leather, understated buckle.\n\nFeatures\nLeather, metal buckle.\nDEMO product: sample price and text."
         }
       }
     }
